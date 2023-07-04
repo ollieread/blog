@@ -14,5 +14,12 @@
       "App\\Listeners\\": "listeners/",
       "App\\Markdown\\" : "markdown/"
     }
+  },
+  "scripts": {
+    "deploy": [
+      "npm run prod",
+      "git add -f build_production && git commit -m \"chore: Building for deployment\"",
+      "git subtree push --prefix build_production origin gh-pages"
+    ]
   }
 }
