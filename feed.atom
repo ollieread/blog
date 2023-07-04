@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>ollieread.com</title>
-    <link href="https://jigsaw-blog-template.tighten.co/" />
-    <link type="application/atom+xml" rel="self" href="https://jigsaw-blog-template.tighten.co/feed.atom" />
-    <updated>2023-07-04T15:01:00+00:00</updated>
-    <id>https://jigsaw-blog-template.tighten.co/feed.atom</id>
+    <link href="https://ollieread.com/" />
+    <link type="application/atom+xml" rel="self" href="https://ollieread.com/feed.atom" />
+    <updated>2023-07-04T15:14:55+00:00</updated>
+    <id>https://ollieread.com/feed.atom</id>
     <author>
         <name>Ollie Read</name>
     </author>
                 <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/the-action-and-operation-approach</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/the-action-and-operation-approach" />
+    <id>https://ollieread.com/archive/read/the-action-and-operation-approach</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/the-action-and-operation-approach" />
     <title>The Action and Operation approach</title>
     <published>2019-10-07T13:00:00+00:00</published>
     <updated>2019-10-07T13:00:00+00:00</updated>
@@ -265,8 +265,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom" />
+    <id>https://ollieread.com/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom" />
     <title>An update on what the future has in store for me and ollieread.com</title>
     <published>2019-10-03T00:01:00+00:00</published>
     <updated>2019-10-03T00:01:00+00:00</updated>
@@ -403,8 +403,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/multitenancy-with-laravel-a-course-and-package</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/multitenancy-with-laravel-a-course-and-package" />
+    <id>https://ollieread.com/archive/read/multitenancy-with-laravel-a-course-and-package</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/multitenancy-with-laravel-a-course-and-package" />
     <title>Multitenancy With Laravel, a course and package</title>
     <published>2019-10-03T00:00:00+00:00</published>
     <updated>2019-10-03T00:00:00+00:00</updated>
@@ -450,8 +450,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/creating-a-modern-day-php-framework</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/creating-a-modern-day-php-framework" />
+    <id>https://ollieread.com/archive/read/creating-a-modern-day-php-framework</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/creating-a-modern-day-php-framework" />
     <title>Creating a modern day PHP framework</title>
     <published>2018-09-09T00:00:00+00:00</published>
     <updated>2018-09-09T00:00:00+00:00</updated>
@@ -495,8 +495,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/laravel-rbac-role-based-access-control-without-over-engineering</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/laravel-rbac-role-based-access-control-without-over-engineering" />
+    <id>https://ollieread.com/archive/read/laravel-rbac-role-based-access-control-without-over-engineering</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/laravel-rbac-role-based-access-control-without-over-engineering" />
     <title>Laravel RBAC (role based access control), without over-engineering</title>
     <published>2018-08-16T00:00:00+00:00</published>
     <updated>2018-08-16T00:00:00+00:00</updated>
@@ -699,8 +699,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent" />
+    <id>https://ollieread.com/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent" />
     <title>How I accidentally created an ORM to avoid using Eloquent</title>
     <published>2018-08-07T17:35:25+00:00</published>
     <updated>2018-08-07T17:35:25+00:00</updated>
@@ -786,8 +786,8 @@ All of the examples here are based on a standard non-api project build, and the 
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/laravel-multi-tenancy-avoiding-over-engineering</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/laravel-multi-tenancy-avoiding-over-engineering" />
+    <id>https://ollieread.com/archive/read/laravel-multi-tenancy-avoiding-over-engineering</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/laravel-multi-tenancy-avoiding-over-engineering" />
     <title>Laravel multi-tenancy, avoiding over engineering</title>
     <published>2018-08-06T16:30:00+00:00</published>
     <updated>2018-08-06T16:30:00+00:00</updated>
@@ -1109,8 +1109,8 @@ In Laravel 5.8 and above, <code>\DB::connection('tenant')-&gt;reconnect()</code>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/treating-apis-like-any-other-data-source</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/treating-apis-like-any-other-data-source" />
+    <id>https://ollieread.com/archive/read/treating-apis-like-any-other-data-source</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/treating-apis-like-any-other-data-source" />
     <title>Treating APIs like any other data source</title>
     <published>2018-07-19T23:38:28+00:00</published>
     <updated>2018-07-19T23:38:28+00:00</updated>
@@ -1152,8 +1152,8 @@ In Laravel 5.8 and above, <code>\DB::connection('tenant')-&gt;reconnect()</code>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/an-alternative-to-eloquent-articulate</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/an-alternative-to-eloquent-articulate" />
+    <id>https://ollieread.com/archive/read/an-alternative-to-eloquent-articulate</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/an-alternative-to-eloquent-articulate" />
     <title>An alternative to Eloquent, Articulate</title>
     <published>2018-04-17T00:00:50+00:00</published>
     <updated>2018-04-17T00:00:50+00:00</updated>
@@ -1194,8 +1194,8 @@ In Laravel 5.8 and above, <code>\DB::connection('tenant')-&gt;reconnect()</code>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/using-repositories-with-laravel</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/using-repositories-with-laravel" />
+    <id>https://ollieread.com/archive/read/using-repositories-with-laravel</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/using-repositories-with-laravel" />
     <title>Using Repositories with Laravel</title>
     <published>2018-04-06T20:34:49+00:00</published>
     <updated>2018-04-06T20:34:49+00:00</updated>
@@ -1255,8 +1255,8 @@ In Laravel 5.8 and above, <code>\DB::connection('tenant')-&gt;reconnect()</code>
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/freelance-php-developer-return</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/freelance-php-developer-return" />
+    <id>https://ollieread.com/archive/read/freelance-php-developer-return</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/freelance-php-developer-return" />
     <title>Freelance PHP developer, the return!!</title>
     <published>2017-10-11T00:00:57+00:00</published>
     <updated>2017-10-11T00:00:57+00:00</updated>
@@ -1274,8 +1274,8 @@ For those of you that don&#039;t know, I&#039;ve been working for CleverCherry f
     ]]></content>
 </entry>
             <entry>
-    <id>https://jigsaw-blog-template.tighten.co/archive/read/a-streamlined-approach-to-laravel-validation</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/archive/read/a-streamlined-approach-to-laravel-validation" />
+    <id>https://ollieread.com/archive/read/a-streamlined-approach-to-laravel-validation</id>
+    <link type="text/html" rel="alternate" href="https://ollieread.com/archive/read/a-streamlined-approach-to-laravel-validation" />
     <title>A streamlined approach to Laravel validation</title>
     <published>2016-03-26T15:33:48+00:00</published>
     <updated>2016-03-26T15:33:48+00:00</updated>
