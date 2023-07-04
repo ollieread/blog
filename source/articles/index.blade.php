@@ -1,10 +1,3 @@
----
-title: Articles
-description: The archive of old and retired articles.
-pagination:
-collection: articles
-perPage: 10
----
 @extends('_layouts.main')
 
 @section('page.header')
