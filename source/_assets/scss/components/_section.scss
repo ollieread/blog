@@ -1,0 +1,45 @@
+.section {
+  @apply px-2;
+
+  p {
+    @apply tracking-wide leading-6;
+
+    & + * {
+      @apply mt-4;
+    }
+
+    a {
+      @apply underline;
+      // Light
+      @apply text-sky-600;
+      // Dark
+      @include darkMode {
+        @apply dark:text-sky-200;
+      }
+    }
+  }
+
+  &__header {
+    @apply mb-8 text-lg;
+  }
+
+  &__heading {
+    @apply my-2 text-3xl font-bold;
+
+    &--secondary {
+      @apply text-2xl my-6 #{!important};
+    }
+  }
+
+  &__grid {
+    @apply grid grid-cols-2;
+
+    &-column {
+
+    }
+  }
+
+  &__content {
+    @apply text-lg;
+  }
+}

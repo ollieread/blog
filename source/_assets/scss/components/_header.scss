@@ -1,0 +1,77 @@
+.header {
+  @apply flex flex-col justify-start items-center py-4;
+
+  &__links {
+    @apply flex items-center my-4
+  }
+
+  &__link {
+    @apply rounded-full w-10 h-10 p-2 shadow mx-2 flex justify-center items-center transition-colors ease-in-out no-underline;
+    // Light
+    @apply bg-slate-200 fill-slate-700 hover:fill-white;
+    // Dark
+    @include darkMode {
+      @apply dark:bg-zinc-800 dark:fill-zinc-300 dark:hover:fill-black;
+    }
+
+    &--twitter:hover {
+      background-color : #1da1f2;
+    }
+
+    &--github:hover {
+      background-color : #333333;
+
+      // Dark
+      @include darkMode {
+        @media(prefers-color-scheme : dark) {
+          background-color : #fafafa;
+        }
+      }
+    }
+
+    &--youtube:hover {
+      background-color : #ff0000;
+    }
+
+    &--discord:hover {
+      background-color : #5865f2;
+    }
+
+    &--mastodon:hover {
+      background-color: #6364ff;
+    }
+  }
+
+  &__image {
+    @apply w-32 rounded-full ring-1 shadow-lg;
+    // Light
+    @apply ring-slate-200;
+    // Dark
+    @include darkMode {
+      @apply dark:ring-zinc-800;
+    }
+  }
+
+  &__title {
+    @apply pt-4 text-2xl font-bold;
+    // Light
+    @apply text-slate-700;
+    // Dark
+    @include darkMode {
+      @apply dark:text-zinc-300;
+    }
+  }
+
+  &__subtitle {
+    @apply pt-2 text-lg;
+    // Light
+    @apply text-slate-700;
+    // Dark
+    @include darkMode {
+      @apply dark:text-zinc-300;
+    }
+  }
+  &__nav {
+    @apply mt-6 w-full;
+  }
+}

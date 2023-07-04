@@ -1,0 +1,13 @@
+%hoverState {
+  @apply md:hover:scale-105 md:transition-all md:ease-in-out;
+
+  &:hover {
+    @apply outline outline-2 outline-blue-500;
+  }
+}
+
+@mixin darkMode {
+  html.dark & {
+    @content;
+  }
+}

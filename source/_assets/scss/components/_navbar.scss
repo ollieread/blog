@@ -1,0 +1,53 @@
+.navbar {
+  @apply flex flex-row items-center justify-center space-x-5;
+
+  &__item {
+    @apply py-1 px-4 inline-flex items-center rounded-full border uppercase;
+    @apply no-underline #{!important};
+    // Light
+    @apply bg-white border-gray-200 text-slate-600;
+    // Dark
+    @include darkMode {
+      @apply dark:bg-zinc-900 dark:border-zinc-800 dark:text-slate-300;
+    }
+    @extend %hoverState;
+
+    &--current {
+      @apply shadow;
+      // Light
+      @apply text-black border-gray-300;
+      // Dark
+      @include darkMode {
+        @apply dark:text-white dark:border-zinc-700;
+      }
+
+      .navbar__icon {
+        @apply hidden;
+
+        &--full {
+          @apply inline;
+          // Light
+          @apply fill-slate-500;
+          // Dark
+          @include darkMode {
+            @apply dark:fill-slate-200;
+          }
+        }
+      }
+    }
+  }
+
+  &__icon {
+    @apply w-4 mr-2;
+    // Light
+    @apply fill-slate-400;
+    // Dark
+    @include darkMode {
+      @apply dark:fill-slate-100;
+    }
+
+    &--full {
+      @apply hidden;
+    }
+  }
+}

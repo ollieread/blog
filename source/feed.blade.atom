@@ -1,0 +1,7 @@
+@extends('_layouts.rss')
+
+@section('entries')
+    @foreach ($archive as $entry)
+        @include('_components.articles.rss-item', ['type' => 'archive'])
+    @endforeach
+@endsection

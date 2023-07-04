@@ -1,0 +1,10 @@
+---
+extends: _layouts.archive
+section: article
+title: {{TITLE}}
+description: "{{DESCRIPTION}}"
+date: {{DATE}}
+category: {{CATEGORY}}
+archived: {{ARCHIVED}}
+---
+{{CONTENT}}

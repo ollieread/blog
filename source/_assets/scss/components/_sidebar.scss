@@ -1,0 +1,23 @@
+.sidebar {
+  @apply md:fixed md:inset-y-0 md:flex md:w-72 md:flex-col bg-white border-r border-slate-200;
+
+  &__header {
+    @apply flex flex-col justify-start items-center py-4 border-b border-slate-200;
+
+    &-image {
+      @apply w-32 rounded-full ring-1 shadow-lg ring-slate-200;
+    }
+
+    &-title {
+      @apply pt-4 text-2xl font-bold text-slate-700
+    }
+  }
+
+  &__menu {
+    @apply flex flex-col flex-1 p-4;
+  }
+
+  &__user {
+    @apply flex flex-shrink-0 border-t border-slate-200;
+  }
+}

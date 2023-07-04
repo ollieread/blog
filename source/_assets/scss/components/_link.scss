@@ -1,0 +1,36 @@
+.link {
+  @apply underline text-sky-600;
+
+  &--external {
+    @apply relative mr-4;
+
+    &:after {
+      @apply absolute w-3;
+      content : url('/assets/images/external-icon.svg');
+      right   : -1rem;
+      top     : 0;
+    }
+  }
+
+  &--anchor {
+    @apply absolute hidden w-4;
+    bottom : .075rem;
+    left   : -.75rem;
+
+    &:before {
+      content : url('/assets/images/link-icon.svg');
+    }
+  }
+
+  &--subtle {
+    @apply text-sm;
+  }
+
+  &--white {
+    @apply text-white;
+  }
+
+  &--circle {
+    @apply rounded-full;
+  }
+}

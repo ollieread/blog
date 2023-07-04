@@ -1,0 +1,193 @@
+.panels {
+  @apply space-y-8;
+
+  &--grid {
+    @apply grid grid-cols-2 gap-8 space-y-0;
+  }
+}
+
+.panel {
+  @apply block rounded-md shadow border;
+  // Light
+  @apply bg-white border-gray-200;
+  // Dark
+  @include darkMode {
+    @apply dark:bg-zinc-900 dark:border-zinc-800;
+  }
+
+  &--link {
+    @extend %hoverState;
+
+    &:hover {
+      .panel__header-title {
+        // Light
+        @apply text-blue-600;
+        // Dark
+        @include darkMode {
+          @apply text-blue-400;
+        }
+      }
+    }
+  }
+
+  &__image {
+    @apply object-cover h-80 w-full overflow-hidden rounded-t-md;
+  }
+
+  &__header {
+    @apply px-6 py-4;
+
+    &-time {
+      @apply text-sm font-normal block mb-1;
+      // Light
+      @apply text-slate-500;
+      // Dark
+      @include darkMode {
+        @apply dark:text-zinc-300;
+      }
+    }
+
+    &-title {
+      @apply my-2 text-2xl font-semibold;
+      // Light
+      @apply text-slate-900;
+      // Dark
+      @include darkMode {
+        @apply dark:text-zinc-100;
+      }
+    }
+  }
+
+  &__badges {
+    @apply flex flex-row justify-between;
+  }
+
+  &__stats {
+    @apply flex-row text-sm text-slate-500 font-normal block mt-2;
+  }
+
+  &__stat {
+    @apply inline-flex justify-start content-start mr-2;
+
+    &-icon {
+      @apply w-4 fill-slate-500 mr-2;
+    }
+
+    &-text {
+
+    }
+  }
+
+  &__body {
+    @apply px-10 py-4;
+    // Light
+    @apply text-slate-800;
+    // Dark
+    @include darkMode {
+      @apply dark:text-slate-200;
+    }
+
+    .panel__header + & {
+      @apply border-t;
+      // Light
+      @apply border-gray-200;
+      // Dark
+      @include darkMode {
+        @apply dark:border-zinc-800;
+      }
+    }
+
+    &-more {
+      @apply block font-normal mx-auto px-3 py-2 rounded-full w-40 text-center shadow;
+      // Light
+      @apply text-sky-600 border border-gray-200;
+      // Dark
+      @include darkMode {
+        @apply dark:text-sky-300 dark:border-gray-700;
+      }
+    }
+
+    p {
+      @apply tracking-wide leading-6;
+
+      & + * {
+        @apply mt-4;
+      }
+
+      a {
+        @apply underline;
+        // Light
+        @apply text-sky-600;
+        // Dark
+        @include darkMode {
+          @apply dark:text-sky-200;
+        }
+      }
+    }
+
+    blockquote {
+      @apply text-gray-600 italic m-4 mr-0 text-lg;
+    }
+
+    a {
+      @apply text-blue-500 underline;
+
+      &:hover {
+        @apply text-blue-700;
+      }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      @apply mb-2 mt-3 relative -ml-2 pl-2 font-bold;
+      // Light
+      @apply text-slate-900;
+      // Dark
+      @include darkMode {
+        @apply dark:text-zinc-100;
+      }
+
+      &:hover .link--anchor {
+        @apply block;
+      }
+    }
+
+    h2 {
+      @apply text-xl;
+    }
+
+    h3 {
+      @apply text-lg;
+    }
+
+    h4 {
+      @apply text-base;
+    }
+
+    p > code, li > code {
+      @apply shadow-inner rounded px-1;
+      color            : #e1e4e8;
+      background-color : #24292e;
+      overflow-wrap    : break-word;
+    }
+
+    ul {
+      @apply my-2 ml-3;
+
+      li {
+        @apply list-disc list-inside;
+
+        & > ul {
+          @apply my-0;
+        }
+      }
+    }
+
+    .notice {
+      @apply mb-4;
+
+      code {
+        overflow-wrap : break-word;
+      }
+    }
+  }
+}

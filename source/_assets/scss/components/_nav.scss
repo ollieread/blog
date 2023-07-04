@@ -1,0 +1,30 @@
+.nav {
+  @apply flex;
+
+  &--vertical {
+    @apply flex-col;
+  }
+
+  &__item {
+    @apply p-3 text-slate-700 hover:text-slate-800 hover:bg-slate-100 rounded-lg mb-2;
+    @apply no-underline #{!important};
+
+    &--current {
+      @apply bg-slate-200 #{!important};
+
+      & .nav__item {
+        @apply text-gray-500 #{!important}
+      }
+    }
+
+    &-icon {
+      @apply text-slate-400;
+    }
+
+    &:hover {
+      .nav__item-icon {
+        @apply text-gray-500;
+      }
+    }
+  }
+}

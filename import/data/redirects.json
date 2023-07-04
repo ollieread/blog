@@ -1,0 +1,182 @@
+[
+  {
+    "from": "/blog/2016/03/26/a-streamlined-approach-to-laravel-validation",
+    "to": "/articles/read/a-streamlined-approach-to-laravel-validation"
+  },
+  {
+    "from": "/blog/2017/10/11/freelance-php-developer-return",
+    "to": "/articles/read/freelance-php-developer-return"
+  },
+  {
+    "from": "/blog/2018/04/17/an-alternative-to-eloquent-articulate",
+    "to": "/articles/read/an-alternative-to-eloquent-articulate"
+  },
+  {
+    "from": "/blog/2018/04/06/using-repositories-with-laravel",
+    "to": "/articles/read/using-repositories-with-laravel"
+  },
+  {
+    "from": "/blog/2018/07/19/treating-apis-like-any-other-data-source",
+    "to": "/articles/read/treating-apis-like-any-other-data-source"
+  },
+  {
+    "from": "/blog/2018/08/06/laravel-multi-tenancy-avoiding-over-engineering",
+    "to": "/articles/read/laravel-multi-tenancy-avoiding-over-engineering"
+  },
+  {
+    "from": "/blog/2018/08/07/how-i-accidentally-created-an-orm-to-avoid-using-eloquent",
+    "to": "/articles/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent"
+  },
+  {
+    "from": "/blog/2018/08/16/laravel-rbac-role-based-access-control-without-over-engineering",
+    "to": "/articles/read/laravel-rbac-role-based-access-control-without-over-engineering"
+  },
+  {
+    "from": "/blog/2018/09/09/creating-a-modern-day-php-framework",
+    "to": "/articles/read/creating-a-modern-day-php-framework"
+  },
+  {
+    "from": "/p/kazYeJ",
+    "to": "/articles/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom"
+  },
+  {
+    "from": "/p/9aAOdv",
+    "to": "/articles/read/multitenancy-with-laravel-a-course-and-package"
+  },
+  {
+    "from": "/articles/the-new-olliereadcom-multitenancy-course-and-general-update",
+    "to": "/articles/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom"
+  },
+  {
+    "from": "/p/DbDxbl",
+    "to": "/articles/read/laravel-modules-without-over-engineering"
+  },
+  {
+    "from": "/p/oeEva0",
+    "to": "/articles/read/laravel-jwt-without-over-engineering"
+  },
+  {
+    "from": "/p/6dBXa7",
+    "to": "/articles/read/the-action-and-operation-approach"
+  },
+  {
+    "from": "/p/RdG7dD",
+    "to": "/articles/read/using-classes-to-define-laravel-routes"
+  },
+  {
+    "from": "/p/mep2bM",
+    "to": "/articles/read/laravel-multi-tenancy-avoiding-over-engineering"
+  },
+  {
+    "from": "/articles/a-streamlined-approach-to-laravel-validation",
+    "to": "/archive/read/a-streamlined-approach-to-laravel-validation"
+  },
+  {
+    "from": "/articles/freelance-php-developer-return",
+    "to": "/archive/read/freelance-php-developer-return"
+  },
+  {
+    "from": "/articles/an-alternative-to-eloquent-articulate",
+    "to": "/archive/read/an-alternative-to-eloquent-articulate"
+  },
+  {
+    "from": "/articles/using-repositories-with-laravel",
+    "to": "/archive/read/using-repositories-with-laravel"
+  },
+  {
+    "from": "/articles/treating-apis-like-any-other-data-source",
+    "to": "/archive/read/treating-apis-like-any-other-data-source"
+  },
+  {
+    "from": "/articles/laravel-multi-tenancy-avoiding-over-engineering",
+    "to": "/archive/read/laravel-multi-tenancy-avoiding-over-engineering"
+  },
+  {
+    "from": "/articles/how-i-accidentally-created-an-orm-to-avoid-using-eloquent",
+    "to": "/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent"
+  },
+  {
+    "from": "/articles/laravel-rbac-role-based-access-control-without-over-engineering",
+    "to": "/archive/read/laravel-rbac-role-based-access-control-without-over-engineering"
+  },
+  {
+    "from": "/articles/creating-a-modern-day-php-framework",
+    "to": "/archive/read/creating-a-modern-day-php-framework"
+  },
+  {
+    "from": "/articles/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom",
+    "to": "/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom"
+  },
+  {
+    "from": "/articles/multitenancy-with-laravel-a-course-and-package",
+    "to": "/archive/read/multitenancy-with-laravel-a-course-and-package"
+  },
+  {
+    "from": "/articles/laravel-modules-without-over-engineering",
+    "to": "/archive/read/laravel-modules-without-over-engineering"
+  },
+  {
+    "from": "/articles/laravel-jwt-without-over-engineering",
+    "to": "/archive/read/laravel-jwt-without-over-engineering"
+  },
+  {
+    "from": "/articles/the-action-and-operation-approach",
+    "to": "/archive/read/the-action-and-operation-approach"
+  },
+  {
+    "from": "/articles/using-classes-to-define-laravel-routes",
+    "to": "/archive/read/using-classes-to-define-laravel-routes"
+  },
+  {
+    "from": "/articles/laravel-multi-tenancy-avoiding-over-engineering",
+    "to": "/archive/read/laravel-multi-tenancy-avoiding-over-engineering"
+  },
+  {
+    "from": "/articles/a-streamlined-approach-to-laravel-validation",
+    "to": "/archive/read/a-streamlined-approach-to-laravel-validation"
+  },
+  {
+    "from": "/articles/freelance-php-developer-return",
+    "to": "/archive/read/freelance-php-developer-return"
+  },
+  {
+    "from": "/articles/an-alternative-to-eloquent-articulate",
+    "to": "/archive/read/an-alternative-to-eloquent-articulate"
+  },
+  {
+    "from": "/articles/using-repositories-with-laravel",
+    "to": "/archive/read/using-repositories-with-laravel"
+  },
+  {
+    "from": "/articles/treating-apis-like-any-other-data-source",
+    "to": "/archive/read/treating-apis-like-any-other-data-source"
+  },
+  {
+    "from": "/articles/laravel-multi-tenancy-avoiding-over-engineering",
+    "to": "/archive/read/laravel-multi-tenancy-avoiding-over-engineering"
+  },
+  {
+    "from": "/articles/how-i-accidentally-created-an-orm-to-avoid-using-eloquent",
+    "to": "/archive/read/how-i-accidentally-created-an-orm-to-avoid-using-eloquent"
+  },
+  {
+    "from": "/articles/laravel-rbac-role-based-access-control-without-over-engineering",
+    "to": "/archive/read/laravel-rbac-role-based-access-control-without-over-engineering"
+  },
+  {
+    "from": "/articles/creating-a-modern-day-php-framework",
+    "to": "/archive/read/creating-a-modern-day-php-framework"
+  },
+  {
+    "from": "/articles/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom",
+    "to": "/archive/read/an-update-on-what-the-future-has-in-store-for-me-and-olliereadcom"
+  },
+  {
+    "from": "/articles/multitenancy-with-laravel-a-course-and-package",
+    "to": "/archive/read/multitenancy-with-laravel-a-course-and-package"
+  },
+  {
+    "from": "/articles/the-action-and-operation-approach",
+    "to": "/archive/read/the-action-and-operation-approach"
+  }
+]

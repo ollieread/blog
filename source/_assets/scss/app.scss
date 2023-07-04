@@ -1,0 +1,42 @@
+@import "tailwind/base";
+@import "tailwind/components";
+@import "tailwind/utilities";
+@import "vars";
+@import "fonts";
+@import "mixins";
+
+// Components
+@import "components/header";
+@import "components/toc";
+@import "components/panel";
+@import "components/badge";
+@import "components/pagination";
+@import "components/navbar";
+@import "components/section";
+@import "components/link";
+@import "components/notices";
+@import "components/torchlight";
+
+html, body {
+  @apply h-full;
+}
+
+body {
+  @apply text-base font-normal container;
+  // Light
+  @apply bg-slate-100 text-slate-900;
+  // Dark
+  @include darkMode {
+    @apply dark:bg-slate-900 dark:text-slate-100;
+  }
+}
+
+.content {
+  @apply pt-4 pb-8;
+}
+
+.text {
+  &--tiny {
+    @apply text-xs text-slate-600;
+  }
+}

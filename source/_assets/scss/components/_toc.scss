@@ -1,0 +1,16 @@
+.toc {
+  @apply block mb-6 list-none #{!important};
+
+  &:before {
+    @apply block text-lg font-semibold mb-2;
+    content: 'Table of Contents';
+  }
+
+  li {
+    @apply list-none mb-2 #{!important};
+
+    ul {
+      @apply mt-2 #{!important};
+    }
+  }
+}

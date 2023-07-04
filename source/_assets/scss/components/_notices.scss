@@ -1,0 +1,28 @@
+.notice {
+  @apply rounded-md border p-4 mb-2 bg-white;
+
+  &--warning {
+    @apply bg-yellow-50 text-yellow-700 border-yellow-200;
+  }
+
+  &--error {
+    @apply bg-red-50 text-red-700 border-red-200;
+  }
+
+  &--info {
+    @apply bg-blue-50 text-blue-700 border-blue-200;
+  }
+
+  &--success {
+    @apply bg-green-50 text-green-700 border-green-200;
+  }
+
+  p {
+    @apply mb-0;
+
+    & + p {
+      @apply mt-2;
+    }
+  }
+
+}
