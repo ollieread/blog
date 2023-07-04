@@ -5,3 +5,4 @@
 /torchlight_cache/
 /cache/
 .DS_Store
+.env
