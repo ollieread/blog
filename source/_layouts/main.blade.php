@@ -22,6 +22,17 @@
 <header class="header">
 
     @include('_components.page.header.links')
+
+    <div class="notice notice--success">
+        <p>
+            I'm <strong>available to hire</strong> for Laravel and PHP work, including <em>project builds</em>,
+            <em>consultancy</em> and <em>mentorship</em>.
+        </p>
+        <p class="text-center">
+            <a href="mailto:work@ollieread.com" class="link link--external">Get in touch!</a>
+        </p>
+    </div>
+
     <img src="/assets/images/ollieread.jpg"
          alt="Picture of ollieread"
          class="header__image">
